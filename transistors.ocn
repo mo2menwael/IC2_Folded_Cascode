@@ -1,0 +1,22 @@
+
+selectResult('dcOpInfo)
+report(?output "./transistors.scs" ?param list("gm" "gmbs" "gds" "id"  "vth" "vds" "vdsat" "vgs" "region" "gmoverid" ) ?format "spice" ?maxLineWidth 100000000)
+
+
+file = outfile("./transistors.scs" "a")
+close(file)
+
+/*
+
+Region 0 is cutoff.
+Region 1 is linear.
+Region 2 is saturation .
+Region 3 is subthreshold.
+Region 4 is breakdown.
+
+Type 0 is nMOS. 
+Type 1 is pMOS.
+write this in virtuoso window :   load(./transistors.ocn)
+file must be in eslam's home otherwise put file address
+
+*/

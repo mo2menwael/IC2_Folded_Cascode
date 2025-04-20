@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Apr 19 19:45:12 2025 
+Best design point: 1
+Design specs: 
+	IC2_Folded_Cascode:test:1	corner	Nominal - 
+Design parameters: 
+	Ln		500n
+	Lp		400n
+	VDS		1.65
+	VGS		571.9m
+	Wn		10u
+	Wp		10u
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Sat Apr 19 19:45:15 2025 
